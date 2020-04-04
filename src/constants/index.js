@@ -10,10 +10,7 @@ export const SCENES = {
 };
 
 export const TEXTURES = {
-  DUDE: 'DUDE',
-  GROUND: 'GROUND',
-  SKY: 'SKY',
-  STAR: 'STAR',
+  BACKGROUND: 'BACKGROUND',
 };
 
 export default {

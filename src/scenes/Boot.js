@@ -8,13 +8,7 @@ export default class Boot extends Scene {
 
   preload() {
     const { load } = this;
-    load.image(TEXTURES.GROUND, require('../assets/platform.png'));
-    load.image(TEXTURES.SKY, require('../assets/sky.png'));
-    load.image(TEXTURES.STAR, require('../assets/star.png'));
-    load.spritesheet(TEXTURES.DUDE, require('../assets/dude.png'), {
-      frameWidth: 32,
-      frameHeight: 48,
-    });
+    load.image(TEXTURES.BACKGROUND, require('../assets/sprites/background.png'));
   }
 
   create() {
