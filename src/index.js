@@ -7,7 +7,7 @@ import Phaser from 'phaser';
  * @see {@link https://photonstorm.github.io/phaser3-docs/global.html#GameConfig}
  */
 const config = {
-  // type: Phaser.AUTO,
+  type: Phaser.AUTO,
   title: 'Phaser Template',
   // the following 2 values are from `package.json`
   url: process.env.HOMEPAGE,
